@@ -1,0 +1,8 @@
+services:
+    Magelan\PdfMergerBundle\Service\PdfMerger:
+        arguments: ['%magelan.pdfmerger.config%']
+
+    Magelan\PdfMergerBundle\Command\MagelanMergeCommand:
+        arguments: ['@Magelan\PdfMergerBundle\Service\PdfMerger']
+        tags:
+            - { name: 'console.command' }

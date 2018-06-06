@@ -1,0 +1,27 @@
+{
+  "name": "magelan/pdf-merger-bundle",
+  "type": "symfony-bundle",
+  "description": "[WIP] Provide symfony service to merge pdf",
+  "keywords":    ["symfony", "bundle", "pdf", "merge", "merger"],
+  "license": "MIT",
+  "homepage": "https://github.com/magelanLab/MagelanPdfMergerBundle",
+  "require": {
+    "php": ">=7.1",
+    "symfony/process": "~2.3 || ~3.0 || ~4.0"
+  },
+  "authors": [
+    {
+      "name": "Magelan Team",
+      "homepage": "https://magelan.com/"
+    },
+    {
+      "name": "Symfony Community",
+      "homepage": "https://github.com/magelanOpenSource/MagelanHtmlToPdfBundle/graphs/contributors"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Magelan\\PdfMergerBundle\\": ""
+    }
+  }
+}
